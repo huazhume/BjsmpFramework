@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="110dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/qm_login_icon"
+        />
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_width="230dp"
+        android:layout_height="41dp"
+        android:src="@mipmap/qm_login_wenzi"/>
+
+
+</LinearLayout>

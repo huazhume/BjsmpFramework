@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/qm_ll_wxlogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/layout_phonelogin"></include>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/qm_ll_phonelogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/layout_wxlogin"></include>
+    </LinearLayout>
+</RelativeLayout>

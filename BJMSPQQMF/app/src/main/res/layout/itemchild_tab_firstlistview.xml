@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/qm_first_icon"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/qm_first_icon" />
+    <LinearLayout
+        android:id="@+id/qm_first_cont"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/qm_first_icon"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="亲戚买房"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:text="世界知名投资，中国合伙人"
+                android:textSize="12sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/qm_first_tag1"
+                android:gravity="center_vertical"
+                android:text="二手房"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@mipmap/qm_first_tag2"
+                android:gravity="center_vertical"
+                android:text="投资人"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="小花就是我，我就是小花，花花花花花"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/qm_first_cont"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/qm_first_huhua" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="15ren"
+            android:textAlignment="center" />
+    </LinearLayout>
+</RelativeLayout>
